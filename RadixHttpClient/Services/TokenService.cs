@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 
 namespace RadixHttpClient.Services
 {
-    public class GatewayService : IGatewayService
+    public class TokenService : ITokenService
     {
-        public Task<GatewayResponse> GetGatewayInformation()
+        public Task<GatewayResponse> GetTokenInformation()
         {
             return Task.FromResult(new GatewayResponse());
         }

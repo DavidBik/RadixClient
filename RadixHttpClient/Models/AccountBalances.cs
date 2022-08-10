@@ -6,10 +6,10 @@ namespace RadixHttpClient.Models
     public class AccountBalances
     {
         [JsonProperty("staked_and_unstaking_balance")]
-        public StakedAndUnstakingBalance StakedUnstakingBalance { get; set; }
+        public TokenValue StakedUnstakingBalance { get; set; }
 
         [JsonProperty("liquid_balances")]
-        public List<LiquidBalance> LiquidBalances { get; set; }
+        public List<TokenValue> LiquidBalances { get; set; }
 
     }
 }

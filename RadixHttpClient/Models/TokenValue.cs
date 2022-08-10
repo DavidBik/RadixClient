@@ -2,11 +2,12 @@
 
 namespace RadixHttpClient.Models
 {
-    public class LiquidBalance
+    public class TokenValue
     {
-        [JsonProperty("value")]
-        public string Value { get; set; }
         [JsonProperty("token_identifier")]
         public TokenIdentifier TokenIdentifier { get; set; }
+
+        [JsonProperty("value")]
+        public string Value { get; set; }
     }
 }

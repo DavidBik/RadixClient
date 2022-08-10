@@ -3,8 +3,8 @@ using System.Threading.Tasks;
 
 namespace RadixHttpClient.Interfaces
 {
-    public interface IGatewayService
+    public interface ITokenService
     {
-        Task<GatewayResponse> GetGatewayInformation();
+        Task<GatewayResponse> GetTokenInformation();
     }
 }
